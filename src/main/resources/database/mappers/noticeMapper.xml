@@ -5,7 +5,7 @@
   "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
  
  <!-- 내가 생각하는 dao의 full패키지명 -->
- <mapper namespace="NoticeDAO">
+ <mapper namespace="com.winter.app.board.notice.NoticeDAO">
 	
 	<select id="getList" resultType="NoticeVO">
 		SELECT * FROM NOTICE_TBL
